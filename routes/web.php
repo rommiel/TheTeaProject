@@ -20,3 +20,5 @@ Route::get('/sample', function () {
 });
 
 Route::post('/login/auth', 'LoginController@index');
+
+Route::get('/admin/dashboard', 'AdminController@dashboard');
