@@ -1,0 +1,32 @@
+.logo {
+    height: 70px;
+    width: 50px;
+}
+
+.nav-panel {
+    background: #0D1522;
+}
+
+.side-panel {
+    min-height: 100vh;
+    background: #211A1A;
+}
+
+.col-white {
+    color: #FCFCFC !important;
+}
+
+.panel-link {
+    color: #FCFCFC;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.panel-link:hover {
+    background: #E0AB5B;
+    cursor: pointer;
+}
+
+.col-3 {
+    padding: 0;
+}
