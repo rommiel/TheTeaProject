@@ -7,17 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="{{ asset('css/admin/dashboard.css') }}">
     <title>#</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Tea Project</a>
+    <nav class="navbar navbar-expand-lg navbar-light nav-panel">
+        <img src="{{ asset('images/at_logo.png') }}"" alt="logo" class="logo">
+        <a class="navbar-brand col-white" href="#">Tea Project</a>
         
-        <div class="collapse navbar-collapse">
+        <div class="collapse1 navbar-collapse">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown pr-5">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle col-white" href="#" role="button" data-toggle="dropdown">
                     Username
                 </a>
                 <div class="dropdown-menu" style="box-sizing: content-box">
@@ -32,11 +33,14 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3 bg-primary">
-            1 of 3
+            <div class="col-3 side-panel">
+                <div class="col-white panel-link">Dashboard</div>
+                <div class="col-white panel-link">Transactions</div>
+                <div class="col-white panel-link">Items</div>
+                <div class="col-white panel-link">Users</div>
             </div>
             
-            <div class="col bg-success">
+            <div class="col">
             2 of 3 (wider)
             </div>
         </div>
